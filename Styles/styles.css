@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Julee;
+  src: url(../Fonts/Julee/Julee-Regular.ttf);
+}
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.titleBox h1 {
+  font-family: Julee;
+  text-align: center;
+  font-size: 60px;
+}
+.titleBox {
+  height: auto;
+  width: 500px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  background-color: crimson;
+}
+.taskContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.taskBox {
+  place-items: center;
+  height: 150px;
+  width: 600px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top: 5px solid black;
+  background-color: crimson;
+}
+.taskTitle{
+    text-align: center;
+    font-family: Julee;
+    font-size: 20px;
+}
+input{
+    border: 2px solid black;
+    font-family: Julee;
+    height: 30px;
+}
+select{
+    border: 2px solid black;
+    font-family: Julee;
+    height: 35px;
+}
+.dutyContainer{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dutyBox{
+      height: auto;
+    width: 650px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 15px;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border: 5px solid black;
+    border-top: 5px solid black;
+    background-color: crimson;
+ place-items: center;
+ font-family: Julee;
+}
+.tododuty::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .tododuty::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+  }
+  
+  .tododuty::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .inProgressduty::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .inProgressduty::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+  }
+  
+  .inProgressduty::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .completedduty::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .completedduty::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+  }
+  
+  .completedduty::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .addButton{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Julee;
+  }
+  .addButton:hover{
+    background-color: white;
+  transform: scale(1.1);
+  border-radius: 15px;
+  }
+.move-btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Julee;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.move-btn:hover {
+    background-color: #45a049;
+}
+.edit-btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Julee;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.edit-btn:hover {
+    background-color: #ec971f;
+}
+
+.delete-btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: Julee;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+}

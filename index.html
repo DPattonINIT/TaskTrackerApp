@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Your Task</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+</head>
+
+<body>
+    <br><br>
+    <br>
+    <div>
+        <div class="titleContainer">
+            <div class="titleBox">
+                <h1 class="titleName">Track Your Task App</h1>
+            </div>
+        </div>
+        <section class="taskContainer">
+            <div class="taskBox">
+                <div class="taskTitle">
+                    <h1>Task:</h1>
+                </div>
+                <input type="date" id="due">
+                <input type="text" id="name" placeholder=" Enter Task">
+                <input type="text" id="description" placeholder=" Enter Description">
+                <select id="priority">
+                    <option value="Low">Low</option>
+                    <option value="Medium">Medium</option>
+                    <option value="High">High</option>
+                </select>
+                <button id="addTaskButton" class="addButton" onclick="addTask()">Add Task</button>
+            </div>
+        </section>
+
+        <section class="dutyContainer">
+            <div class="dutyBox">
+                <div id="todoArea" class="tododuty">
+                    <h2>ToDo:</h2>
+                    <ul id="todoist"></ul>
+                </div>
+
+                <div id="inProgressArea" class="inProgressduty">
+                    <h2>In Progress:</h2>
+                    <ul id="workingList"></ul>
+                </div>
+
+                <div id="completeArea" class="completedduty">
+                    <h2>Completed:</h2>
+                    <ul id="finsihedList"></ul>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <script type="module" src="./Scripts/app.js"></script>
+    <script type="module" src="./Scripts/duty.js"></script>
+</body>
+
+</html>
